@@ -6,7 +6,7 @@ import "dotenv/config"
 const app = express()
 
 app.listen(4000, ()=>{
-    console.log("Server is running in port", 3000)
+    console.log("Server is running in port", 4000)
 })
 
 app.use(express.json())
